@@ -1,1 +1,1 @@
-# linaria-react-ts-boilerplate
+# Linaria React TypeScript Boilerplate
