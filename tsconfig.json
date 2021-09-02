@@ -4,7 +4,11 @@
     "target": "es2020",
     "moduleResolution": "Node",
     "esModuleInterop": true,
-    "typeRoots": ["node_modules/@types"]
+    "typeRoots": ["node_modules/@types"],
+    "baseUrl": "src/",
+    "paths": {
+      "@components/*": ["components/*"]
+    }
   },
   "include": ["**/*"],
   "exclude": ["node_modules"]

@@ -1,9 +1,20 @@
 import React from 'react';
+
+import { TitleStyled } from '@components/Title';
 import { styled } from '@linaria/react';
 
-const TitleStyled = styled.h1`
-  color: red;
+const ContainerStyled = styled.div`
+  text-align: center;
+
+  ${TitleStyled} {
+    color: blue;
+  }
 `;
 
-const App = () => <TitleStyled>Hello world!</TitleStyled>;
+const App = () => (
+  <ContainerStyled>
+    <TitleStyled>Hello world!</TitleStyled>
+  </ContainerStyled>
+);
+
 export default App;
